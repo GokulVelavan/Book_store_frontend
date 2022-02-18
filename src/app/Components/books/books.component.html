@@ -1,0 +1,28 @@
+    <div fxLayout="column" fxLayoutAlign="start center" class="Book_wrapper">
+    <div fxLayout="row" fxLayoutAlign="space-between center" class="book_buttons">
+    <h1>Books Count</h1>
+    <button></button>
+  </div>
+  <div  fxLayout="row" fxLayoutAlign="space-around center"  class="book_loop">
+  <div
+    fxLayout="column"
+    fxLayoutAlign="space-between center"
+    class="book_container"
+    *ngFor="let data of Books"
+  >
+      <div fxLayout="row" fxLayoutAlign="center center" class="Book_Image">
+          <img src={{data.bookImage}} />
+    </div>
+    <div
+    fxLayout="column"
+    fxLayoutAlign="space-around start"
+    class="Books_content"
+    >
+    <h3>{{data.bookName}}</h3>
+    <h5>{{data.bookAuthor}}</h5>
+    <span>{{data.totalRating}}</span>
+    <h4>{{data.originalPrice}}</h4>
+</div>
+</div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.view_container{
+    border: 1px solid black;
+    width: 95vw;
+}
+.left_container{
+    border: 1px solid black;
+    width: 40%;
+
+}
+.Right_container{
+    border: 1px solid black;
+flex: 1;
+}
+.Book_small_image{
+    border: 1px solid black;
+   width: 150px;
+}
+.Book_image_actions{
+    border: 1px solid black;
+flex: 1;
+
+
+}.Book_image{
+    border: 1px solid black;
+  width: 100%;
+  height: 100%;
+
+}
+.Book_image>img{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+  
+}
+.Book_actions{
+    border: 1px solid black;
+
+}
+.action{
+    border: 1px solid black;
+
+}

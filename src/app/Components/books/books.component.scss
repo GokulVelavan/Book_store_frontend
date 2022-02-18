@@ -1,0 +1,43 @@
+.book_container{
+    border: 1px solid #E2E2E2;
+    width: 235px; 
+  height: 275px;
+  margin: 5px;
+  cursor: pointer;
+}
+.book_container:hover {
+    box-shadow: 0px 3px 6px #00000040;
+  }
+.Book_Image{
+    width: 233px; 
+    height: 190px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.Book_Image>img{
+    width: 80%;
+    object-fit: contain;
+}
+.Books_content{
+   width: 100%;
+   padding-left: 10px;
+   box-sizing: content-box;
+
+}
+.Books_content>span{
+    background-color: #388E3C;
+    color: white;
+}
+.Book_wrapper{
+    width: 95vw;
+}
+.book_buttons{
+   width: 80%;
+   padding-left: 5px;
+   padding-right: 5px;
+   }
+   .book_loop{
+width: 80%;
+flex-wrap: wrap;
+   }
